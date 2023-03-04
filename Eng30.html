@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap" rel="stylesheet">
+</head>
+<body>
+    <style>
+        #head {
+            text-align: center;
+            font-family: "Tilt Warp";
+            font-size: 50px;
+        }
+
+        #eng {
+            color: green;
+        }
+
+        .links {
+            text-decoration: none;
+            color: rgb(0, 0, 200);
+        }
+    </style>
+
+    <div>
+        <h1 id="head"><span id="eng">Eng30</span> Students</h1>
+        <ol>
+            <h2 onclick="go('Nihat')"><li> <a href="englink.html" class="links">Tağızadə Nihat Elçin</a> </li></h2>
+            <h2 onclick="go('Gunel')"><li> <a href="englink.html" class="links">Məmmədzadə Günel Qəhrəman</a> </li></h3>
+            <h2 onclick="go('Ayten')"><li> <a href="englink.html" class="links">Əhmədova Aytən Ramin</a> </li></h3>
+            <h2 onclick="go('Mehebbet')"><li> <a href="englink.html" class="links">Zəkəriyəyev Məhəbbət Fəryaz</a> </li></h3>
+            <h2 onclick="go('Huseynli')"><li> <a href="englink.html" class="links">Hüseynli Fidan Zöhrab</a></li></h3>
+            <h2 onclick="go('Musayeva')"><li> <a href="englink.html" class="links">Musayeva Aydan Müşfiq</a> </li></h3>
+            <h2 onclick="go('Dilefruz')"><li> <a href="englink.html" class="links">Məmmədova Diləfruz Rahib</a> </li></h3>
+            <h2 onclick="go('Emin')"><li> <a href="englink.html" class="links">Soltanov Emin Qədim</a> </li></h3>
+            <h2 onclick="go('Kerimli')"><li> <a href="englink.html" class="links">Kərimli Fidan Natiq</a> </li></h3>
+            <h2 onclick="go('Shahin')"><li> <a href="englink.html" class="links">İsmayılov Şahin Qalib</a> </li></h3>
+            <h2 onclick="go('Mahir')"><li> <a href="englink.html" class="links">Abdurəhimli Mahir İlqar</a> </li></h3>
+            <h2 onclick="go('Medine')"><li> <a href="englink.html" class="links">Həzizadə Mədinə Anar</a> </li></h3>
+            <h2 onclick="go('Turac')"><li> <a href="englink.html" class="links">Hüseynli Turac Mahir</a> </li></h3>
+            <h2 onclick="go('Nesrullayeva')"><li> <a href="englink.html" class="links">Nəsrullayeva Aydan Ceyhun</a> </li></h3>
+            <h2 onclick="go('Ismayil')"><li> <a href="englink.html" class="links">Qafarov İsmayıl Lütfi</a> </li></h3>
+            <h2 onclick="go('Elvin')"><li> <a href="englink.html" class="links">Sərkərov Elvin Nüsrət</a> </li></h3>
+            <h2 onclick="go('Fatime')"><li> <a href="englink.html" class="links">Xankişiyeva Fatimə Əfqan</a> </li></h3>
+            <h2 onclick="go('Esmer')"><li> <a href="englink.html" class="links">Mirzəyeva Əsmər Rövşən</a> </li></h3>
+            <h2 onclick="go('Turkan')"><li> <a href="englink.html" class="links">Əlizade Türkan Əlizamin</a> </li></h3>
+            <h2 onclick="go('Ennagi')"><li> <a href="englink.html" class="links">Nağılı Ənnağı Rəşad</a> </li></h3>
+            <h2 onclick="go('Zehra')"><li> <a href="englink.html" class="links">Rzazadə Zəhra Elşad</a> </li></h3>
+            <h2 onclick="go('Esed')"><li> <a href="englink.html" class="links">Abbasov Əsəd Firidun</a> </li></h3>
+            <h2 onclick="go('Neriman')"><li> <a href="englink.html" class="links">Məmmədov Nəriman Namiq</a> </li></h3>
+            <h2 onclick="go('Meleyke')"><li> <a href="englink.html" class="links">Heybətova Məleykə Rauf</a> </li></h3>
+            <h2 onclick="go('Ndenneh')"><li> <a href="englink.html" class="links">Ndenneh Chubu</a> </li></h3>
+        </ol>
+    </div>
+
+    <script>
+        function go(name) {
+            sessionStorage.setItem("name", name);
+        }
+    </script>
+</body>
+</html>
